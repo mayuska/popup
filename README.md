@@ -26,10 +26,10 @@ modalBox.close();
 
 **Methods:**
 - open - creates and opens popup
-    1. popId (required) string - the id of popup.
-    2. closeBtn (required) string - is button id for closing popup on click. there is also the Esc keydown for closing.
-    3. innerTemplate (required) string - represent your content you'd like to put in popup.
-    4. hashUrl (optional) string - add hash if you want, if not, default is empty.
+    - popId (required) string - the id of popup.
+    - closeBtn (required) string - is button id for closing popup on click. there is also the Esc keydown for closing.
+    - innerTemplate (required) string - represent your content you'd like to put in popup.
+    - hashUrl (optional) string - add hash if you want, if not, default is empty.
 - close - closes and removes popup
 
 add styles to your main scss
