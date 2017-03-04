@@ -1,4 +1,4 @@
-var popupTemplate = require('./createPopup');
+var popupTemplate = require('./template');
 
 var popUp;
 var hash;

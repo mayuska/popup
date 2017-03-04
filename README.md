@@ -23,6 +23,10 @@ modalBox.open(popId, closeBtn, innerTemplate, hashUrl);
 modalBox.close();
 ```
 
+add styles to your main scss
+```SCSS
+@import "~popup/Popup";
+```
 <br/>
 
 **Methods:**
@@ -45,17 +49,13 @@ var modalBox = require('popup');
  
 var template = '<img src="http://www.pupsor.com/wp-content/uploads/2016/03/cute-small-puppies.jpg">';
 modalBox.open('myPopup', 'dismiss-popup', template);
+
+modalBox.close();
 ```
 <br/>
 
 **yourScssFile.scss**
 
 ```SCSS
-@import path/to/popup/Popup.scss
-#myPopup{
-    @extend extend-popup-styles;
-    
-    // your additional styles
-    
-}
+@import "~popup/Popup";
 ```
