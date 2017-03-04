@@ -41,7 +41,7 @@ modalBox.close();
 
 ```javascript
 require(./yourScssFile.scss);
-var modalBox = require('./openClosePopup');
+var modalBox = require('popup');
  
 var template = '<img src="http://www.pupsor.com/wp-content/uploads/2016/03/cute-small-puppies.jpg">';
 modalBox.open('myPopup', 'dismiss-popup', template);
