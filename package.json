@@ -1,0 +1,22 @@
+{
+  "name": "popup",
+  "version": "1.0.0",
+  "description": "simple popup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mayuska/popup.git"
+  },
+  "keywords": [
+    "popup"
+  ],
+  "author": "Maja Radošević",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayuska/popup/issues"
+  },
+  "homepage": "https://github.com/mayuska/popup#readme"
+}
