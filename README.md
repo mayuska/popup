@@ -22,11 +22,6 @@ modalBox.open(popId, closeBtn, innerTemplate, hashUrl);
 
 modalBox.close();
 ```
-
-add styles to your main scss
-```SCSS
-@import "~popup/Popup";
-```
 <br/>
 
 **Methods:**
@@ -37,7 +32,10 @@ add styles to your main scss
     4. hashUrl (optional) string - add hash if you want, if not, default is empty.
 - close - closes and removes popup
 
-
+add styles to your main scss
+```SCSS
+@import "~popup/Popup";
+```
 
 ### Example:
 
