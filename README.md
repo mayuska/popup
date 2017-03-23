@@ -47,6 +47,7 @@ Add to your main scss
 ```
 
 <br/>
+
 ### Example:
 
 **yourJsFile.js**
