@@ -24,6 +24,9 @@ modalBox.close();
 ```
 
 **Methods:**
+
+methid | parameters | Description
+--- | --- | ---
 - open - creates and opens popup
     - popId (required) string - the id of popup.
     - closeBtn (required) string - is button id for closing popup on click. there is also the Esc keydown for closing.
@@ -32,6 +35,7 @@ modalBox.close();
 - close - closes and removes popup
 
 <br/>
+
 add styles to your main scss
 ```SCSS
 @import "~popup/Popup";
