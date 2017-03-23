@@ -1,5 +1,6 @@
 # Simple classic popup
 
+
 ### how to install:
 
 ```bash
@@ -9,34 +10,38 @@ npm install mayuska/popup
 
 ### developt with:
  - webpack
- - sass
+ - SCSS
  
 
 <br/>
 
 
-### Syntax:
+### How to use it
 ```javascript
 var modalBox = require('popup');
 modalBox.open(popId, closeBtn, innerTemplate, hashUrl);
 
 modalBox.close();
 ```
+<br/>
 
-**Methods:**
+### Methods
 
-methid | parameters | Description
+- **.open**(*popId, closeBtn, innerTemplate, hashUrl*) - creates and opens popup
+- **.close**() - closes and removes popup
+
+Parameter | Type | Description
 --- | --- | ---
-- open - creates and opens popup
-    - popId (required) string - the id of popup.
-    - closeBtn (required) string - is button id for closing popup on click. there is also the Esc keydown for closing.
-    - innerTemplate (required) string - represent your content you'd like to put in popup.
-    - hashUrl (optional) string - add hash if you want, if not, default is empty.
-- close - closes and removes popup
+popId (required) 		 | string | popup Id.
+closeBtn (required) 	 | string | Button Id for closing popup on click. There is also the Esc keydown for closing.
+innerTemplate (required) | string | Represent your content you'd like to put in popup.
+hashUrl (optional) 		 | string | Add hash if you want, if not, default is empty.
 
 <br/>
 
-add styles to your main scss
+### Styles
+
+Add to your main scss
 ```SCSS
 @import "~popup/Popup";
 ```
